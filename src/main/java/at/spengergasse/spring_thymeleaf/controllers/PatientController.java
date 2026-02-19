@@ -13,7 +13,7 @@ import java.time.format.DateTimeFormatter;
 
 @Controller
 @RequestMapping("/patient")
-public class PatientController {
+public class   PatientController {
     private final PatientRepository patientRepository;
 
     public PatientController(PatientRepository patientRepository) {
